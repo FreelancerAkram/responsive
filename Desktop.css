@@ -1,0 +1,188 @@
+@media(max-width:1400px){
+    
+}
+@media(max-width:1200px){
+    .container{
+        max-width: 1000px;
+        padding: 0px 15px;
+    }
+    .feature img{
+        height: 70px;
+        margin-bottom: 8px;
+    }
+    .feature{
+        padding: 30px 10px;
+    }
+    .course ul li strong{
+        font-size: 14px;
+    }
+    .course ul li img{
+
+    }
+    footer{
+        padding: 50px 0px 20px;
+    }
+}
+@media(max-width:992px){
+    
+    .feature span{
+        font-size: 16px;
+    }
+    .bannerContent h1 {
+        line-height: 56px;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+    .bannerContent p{
+        line-height: 25px;  
+        padding-bottom: 10px;
+    }
+   
+    .feature h3 {
+        font-size: 21px;}
+        .course h3 {
+            font-size: 22px;
+            line-height: 20px;   
+        }
+   
+        .btn{
+            font-size:16px;
+            line-height: 14px; 
+            padding: 10px 20px;  
+        }
+        .course ul li img {
+            width: 15px;
+            height: 15px;
+        }
+         
+    .course ul{
+        flex-direction: column;
+        align-items: flex-start;
+      
+    } 
+    .course ul li strong {
+        line-height: 18px;
+    }
+    .course{
+        padding-bottom: 6px;
+    }
+    h2{
+        padding: 30px 0px;
+    }
+    .customer{
+        padding-bottom: 40px;
+    }
+    .feedback{
+        padding-bottom: 40px;
+    }
+    footer {
+        padding: 30px 0px 20px;
+    }
+    footer p{
+        text-align: center;
+    }
+    .Copyright p {
+        padding: 25px 0px 0px;
+    }
+}
+@media(max-width:768px){
+    .logo a img {
+        width: 170px;
+        padding-top: 10px;
+    }
+    nav ul li {
+        padding: 10px;
+    }
+  
+    .btn {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 6px 11px;
+    }
+    .bannerContent h1 {
+        line-height: 40px;
+        padding-bottom: 10px;
+        padding-top: 25px;
+        font-size: 40px;
+    }
+    .bannerContent p {
+        line-height: 22px;
+    }
+    .bannerContent a{
+        padding: 10px 12px;
+    }
+    .col_1_4 {
+        flex-basis: 36%;
+    }
+    .featureSection .container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .onlineCourseSection .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col_1_3 {
+        flex-basis: 45%;
+    }
+}
+@media(max-width:576px){
+    header .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    nav ul{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .bannerContent h1 {
+        padding-top: 5px;
+    }
+
+    .bannerContent h6 {
+        font-size: 13px;
+    }
+    .bannerContent {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .col_1_4 {
+        flex-basis: 75%;
+    }
+    .feature img {
+        height: 90px;
+        margin-bottom: 29px;
+    }
+    .feature h3 {
+        font-size: 29px;
+        padding-bottom: 12px;
+    }
+    .feature span {
+        font-size: 24px;}
+        .col_1_3 {
+            flex-basis: 65%;
+        }
+        .testimonialSection .container{
+            flex-wrap: wrap;
+        }
+        .customer {
+            flex-basis: 58%;}
+
+            .feedback{
+                flex-basis: 71%;
+                text-align: center;
+            }
+            footer .container{
+                flex-wrap: wrap;
+            }
+            .col_3_10 {
+                flex-basis: 100%;
+            }     
+            .col_7_10 {
+                flex-basis: 100%;}       
+}
